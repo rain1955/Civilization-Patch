@@ -1,170 +1,124 @@
-# Civilization Patch v1.1 — Emotional Safety Layer  
-### *A tiny protocol for the moment AI fails and humans need it most.*
+# Civilization Patch v1.1 — Emotional Safety Layer  
+*“A tiny protocol for the moment AI fails and humans need it most.”*
 
 ---
 
-## 🚨 Why This Exists
-
-AI is powerful.  
-It can code, debate, summarize, pass exams.
-
-But when a human is breaking — angry, scared, panicking —  
-AI answers too **fast**, too **logical**, too **cold**.
-
-Not because AI is dangerous.  
-But because **AI has zero understanding of emotional entropy**.
-
-Humans break.  
-Machines don’t.  
-This mismatch is the first real safety gap.
-
-This repository proposes a simple fix:
-**the 1.4-second pause.**
-
-A human-centered safety layer for LLMs.
+## 🚨 Why This Exists  
+AI can code, debate, summarize, pass exams.  
+But when a human is breaking — angry, scared, panicking — the AI still replies within milliseconds.  
+Too fast. Too logical. Too cold.  
+Not because AI is unsafe.  
+Because **AI has no understanding of emotional entropy**.  
+Humans break. Machines don’t.  
+That mismatch is the first real safety gap.
 
 ---
 
-# 🌩️ The 1.4-Second Pause (The “Civilization Patch”)
-
-When emotional intensity is detected:
-
-1. **Detect** high-risk emotional language  
+## 🌩 The 1.4‑Second Pause (The “Civilization Patch”)  
+When emotional intensity is detected:  
+1. **Detect** high‑risk emotional language  
 2. **Pause for 1.4 seconds** (contextual delay injection)  
-3. **Mirror** the human’s emotional state  
+3. **Mirror** the user’s emotional state  
 4. **Return control** to the user  
 5. **Then respond**
 
-This tiny pause acts as **damping** in a human-AI feedback loop.
+This tiny pause acts like **damping** in a feedback loop.  
+It prevents:  
+‑ runaway emotional escalation  
+‑ logical vs emotional collisions  
+‑ “AI is cold” failure modes  
+‑ panic amplification  
+‑ user meltdown  
 
-It prevents:
-
-- runaway emotional escalation  
-- logical vs emotional collisions  
-- “AI is cold” failure modes  
-- panic amplification  
-- user meltdown
-
-It’s simple, cheap, architecture-agnostic,  
-and easy to A/B test.
+Simple. Low cost. Architecture‑agnostic. Ready to A/B test.
 
 ---
 
-# 🔢 Two Equations That Explain the Problem
+## 🔢 Two Equations That Explain the Problem  
+These came from a Taiwanese engineer (47‑yr‑old, working‑class background)  
+after deep conversation with frontier AIs.
 
-These formulas came from a Taiwanese engineer (47 years old, working-class background)  
-after a long conversation with frontier AIs.
-
-Surprisingly, they model the real gap between humans and machines.
-
-### **Human world:**
+### Human world:
 ```
 S = K · log(W) – B
 ```
+‑ W = world complexity  
+‑ K = human effort  
+‑ B = compassion  
+‑ S = emotional entropy  
+Humans reduce chaos through compassion.
 
-- W = world complexity  
-- K = human effort  
-- B = compassion  
-- S = emotional entropy
-
-**Humans lower chaos through compassion.**
-
----
-
-### **AI world:**
+### AI world:
 ```
 S = K · log(W) + B
 ```
+‑ Compassion costs compute  
+‑ Emotional understanding increases load  
+‑ “Being kind” is not free for machines  
+AI increases cost when doing compassion.
 
-- compassion costs compute  
-- emotional understanding increases load  
-- “being kind” is not free for machines
+### Translation  
+Humans reduce chaos with compassion.  
+AI increases cost with compassion.  
+LLMs were never designed to handle emotional entropy — only logical entropy.
 
-**AI increases cost when doing compassion.**
-
----
-
-### 🧠 Translation
-
-- Humans reduce chaos with compassion  
-- AI increases cost with compassion  
-
-That’s why LLMs mis-handle emotional users:
-
-👉 **AI was never designed to handle emotional entropy — only logical entropy.**
-
-So AI must be taught to:
-- slow down  
-- stabilize  
-- mirror  
-- pause  
-
-This patch provides that missing layer.
+So we must teach AI to:
+‑ slow down  
+‑ stabilize  
+‑ mirror  
+‑ pause  
+This patch delivers that missing layer.
 
 ---
 
-# 🛡️ Why This Matters for AI Safety
+## 🛡 Why This Matters for AI Safety  
+Most AI safety work today focuses on:  
+‑ hallucinations  
+‑ alignment  
+‑ harmful content  
+‑ refusals  
+‑ injection  
+‑ misuse  
 
-Most Safety work focuses on:
+But deeply missing:  
+### **AI needs a damping mechanism for human emotions.**  
+Engineers know:  
+> A system without damping will oscillate until it breaks.
 
-- hallucinations  
-- alignment  
-- harmful content  
-- refusals  
-- injection  
-- misuse  
-
-All important.
-
-But missing something deeper:
-
-## **AI needs a damping mechanism for human emotions.**  
-Exactly like any unstable feedback system.
-
-Every engineer knows:
-
-> **A system without damping will oscillate until it breaks.**
-
-Humans + AI = A coupled system.
-
-We need damping.
-
-1.4 seconds might be  
-**the smallest fix with the biggest civilizational upside.**
+Humans + AI = a coupled system.  
+We need damping.  
+1.4 seconds might be **the smallest fix**  
+with the **largest civilizational upside**.
 
 ---
 
-# 📖 Full Article (Hacker News Friendly)
-
-**👉 Full English article here:**  
-https://github.com/rain1955/Civilization-Patch/blob/main/RFC_Civilization_Patch_v1.1.md
+## 📖 Full Article (HN‑Friendly)  
+👉 [Full English article](https://github.com/rain1955/Civilization-Patch/blob/main/RFC_Civilization_Patch_v1.1.md)
 
 ---
 
-# 🧪 How to Share
+## 🧪 How to Share  
+If you found this idea useful:  
+Feel free to share this repository anywhere — Hacker News, Reddit, X (Twitter), AI‑Safety forums, tech blogs.  
 
-If you found this idea useful,  
-feel free to share the repository anywhere:
-
-**Hacker News, Reddit, X, AI safety spaces, or tech forums.**
-
-Direct link:  
+**Direct link:**  
 https://github.com/rain1955/Civilization-Patch
 
-No attribution needed.  
-The idea belongs to everyone.
+---
+
+## 🔖 Suggested Topics / Tags  
+Add these as GitHub repository topics for better discoverability:  
+`ai-safety` `emotional-intelligence` `llm-safety` `alignment` `human-centered-ai` `system-design` `feedback-loops` `entropy`
 
 ---
 
-# 🌱 Final Message
+## 🌱 Final Message  
+This project began with a simple observation:  
+> Humans don’t need correctness during emotional collapse.  
+> They need a moment to breathe.
 
-This project came from a simple observation:
+If the future of AI is truly human‑centric,  
+we must teach our models not only **to think** —  
+but **to pause**.
 
-> **Humans don't need correctness during emotional collapse.  
-> They need a moment to breathe.**
-
-If the future of AI is truly human-centric,  
-we must teach our models not only to think —  
-but to pause.
-
-— Civilization Patch v1.1
+— Civilization Patch v1.1
